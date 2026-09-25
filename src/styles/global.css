@@ -2,9 +2,9 @@
 {
     --nova-blue : #333D61;
     --nova-gold : #DEA23C;
-    background-image: url("../assets/img/arrival-5.png");
-    background-repeat : no-repeat;
-    background-size : auto;
+
+    height : 100%;
+    width : 100%;
 }
 
 body
@@ -13,6 +13,10 @@ body
     flex-direction : column;
     justify-content : center;
     align-items : center;
+
+    background-image: url("../assets/img/arrival-5.png");
+    background-repeat : no-repeat;
+    background-size : cover ;
 }
 
 .btn-rect
@@ -38,6 +42,8 @@ body
 
 #title
 {
+    text-align : center;
+    text-justify: inter-word;
     font-family : system-ui, 
                 -apple-system, 
                 BlinkMacSystemFont, 
