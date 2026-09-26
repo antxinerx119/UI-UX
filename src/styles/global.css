@@ -28,6 +28,8 @@ body
     border-color : var(--nova-gold);
     border-style : solid ;
     border-width : 5px;
+
+    text-decoration : none;
 }
 
 #menu
