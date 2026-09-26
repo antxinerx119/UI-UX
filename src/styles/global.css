@@ -59,7 +59,7 @@ body
     color : var(--nova-gold) ;
 
     -webkit-text-stroke-width : 2px;
-    -webkit-text-stroke-color: var(--nova-blue);
+    -webkit-text-stroke-color: black;
 
     margin-top : 10%;
 }
