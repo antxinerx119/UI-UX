@@ -30,6 +30,7 @@ body
     border-width : 5px;
 
     text-decoration : none;
+    color : inherit;
 }
 
 #menu
