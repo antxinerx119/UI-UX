@@ -66,6 +66,12 @@ body
     margin-left : 2px;
     
 }
+
+a{
+    color : inherit;
+    text-decoration: none;
+}
+
 #title
 {
     
@@ -81,9 +87,6 @@ body
 #info
 {
     display : flex;
-    flex-direction : column;
-    justify-content : center;
-    align-items : center;
 
     background-color : rgba(255,255,255,0.8);
     width : 90%;
@@ -94,35 +97,94 @@ body
     padding-bottom : 5%;
 }
 
+#setting-info
+{
+    display : flex;
+    flex-wrap : wrap;
+
+    flex-direction : column;
+    justify-content : flex-start;
+
+
+    margin-top : 5%;
+    
+}
+
 #chapter-title
 {
     display : flex;
     align-self : flex-start;
-
-    font-size : 20px;
+    justify-self : flex-start;
+    font-size : 100%;
     color : var(--nova-gold);
 
     background-color : var(--nova-blue);
 
+    
+    
+
 
     margin-bottom : 0px;
+    margin-top : 0px;
+
+    padding-bottom : 0px;
+    padding-right : 20px;
+    
 }
+
+#chapter-info
+{
+    display : flex;
+    flex-wrap : wrap;
+    align-self : flex-start;
+
+    white-space : normal;
+
+    border-width : 5px;
+
+    padding-top : 0px;
+
+    margin-top : 10%;
+
+    
+    
+}
+
+#setting-btns
+{
+    display : flex;
+    flex-direction : column;
+    align-self: flex-end;
+
+    
+    
+    border-width : 5px;
+
+    padding-top : 10%;
+    padding-bottom: 10%;
+
+    width : 40%;
+
+
+}
+
 #read-btn 
 {
     display : flex;
     flex-direction : column;
     justify-content : center;
     align-items : center;
+    align-self : center;
 
     background-color : var(--nova-blue);
     height : 30px;
-    width : 20%;
+    width : 85%;
 
     border-color : var(--nova-gold);
     border-style : solid ;
     border-width : 5px;
 
-    margin-bottom : 5%;
+    margin-bottom : 20%;
 }
 
 .read-txt
