@@ -1,0 +1,99 @@
+.button {
+  border: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5.8svh;
+  padding: 0 2cqw;
+  background: #d9d9d9;
+  font-size: 4.45cqw;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.button:hover:not(:disabled) {
+  background: #ccc;
+}
+
+.button:disabled {
+  color: #777;
+  cursor: default;
+}
+
+.button[aria-pressed="true"] {
+  background: #c4c4c4;
+}
+
+.back {
+  position: absolute;
+  top: 0.5svh;
+  left: 2%;
+  width: 7%;
+  height: 5.3svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10cqw;
+  line-height: 1;
+  z-index: 2;
+}
+
+.info-card {
+  position: relative;
+  width: 92%;
+  height: 31.5svh;
+  margin: 0 auto;
+  border: 1px solid #777;
+  padding: 2.5cqw;
+}
+
+.info-card h1 {
+  font-size: 4.45cqw;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.info-content {
+  position: absolute;
+  top: 7.4svh;
+  left: 2.5%;
+  right: 2.5%;
+  height: 12svh;
+  border: 1px solid #aaa;
+  font-size: 4.1cqw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.placeholder,
+.settings-card {
+  background:
+    linear-gradient(to bottom right, transparent calc(50% - 0.5px), #ccc 50%, transparent calc(50% + 0.5px)),
+    linear-gradient(to top right, transparent calc(50% - 0.5px), #ccc 50%, transparent calc(50% + 0.5px));
+}
+
+.placeholder span {
+  background: #fff;
+  padding: 1cqw;
+}
+
+.card-action {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  bottom: 1.7svh;
+}
+
+.list-controls {
+  width: 46%;
+  margin: 2.2svh auto 0;
+}
+
+.button-list {
+  display: grid;
+  gap: 2.55svh;
+}

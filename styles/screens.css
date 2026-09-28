@@ -1,0 +1,96 @@
+.welcome {
+  padding-top: 12.4svh;
+}
+
+.welcome h1 {
+  height: 15.1svh;
+  text-align: center;
+  font-size: 8.9cqw;
+  line-height: 1.2;
+}
+
+.description {
+  height: 25.3svh;
+  text-align: center;
+  font-size: 4.45cqw;
+}
+
+.menu {
+  width: 54%;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.7svh;
+}
+
+.selector {
+  padding-top: 10.3svh;
+}
+
+.chapter-preview img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+}
+
+.chapter-preview span {
+  flex: 1;
+  text-align: center;
+}
+
+.subject-screen .info-card {
+  height: 39svh;
+}
+
+.subject-screen .info-content {
+  height: 20svh;
+}
+
+.subject-screen .list-controls {
+  margin-top: 0.7svh;
+}
+
+.settings-card h1 {
+  width: 58%;
+}
+
+.settings-card p {
+  position: absolute;
+  top: 14svh;
+  left: 2.5cqw;
+  width: 58%;
+  font-size: 4.1cqw;
+}
+
+.setting-options {
+  position: absolute;
+  top: 1.6svh;
+  right: 2.5%;
+  width: 40%;
+  display: grid;
+  gap: 2.55svh;
+}
+
+.reader-back {
+  position: fixed;
+  left: calc(50% - min(50vw, 28.125svh) + 1.125svh);
+  width: 4svh;
+  background: #ffffffd9;
+}
+
+.panels img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reader-next {
+  width: 54%;
+  margin: 4svh auto;
+}
+
+@media (max-aspect-ratio: 9/16) {
+  .reader-back {
+    left: 2%;
+  }
+}
