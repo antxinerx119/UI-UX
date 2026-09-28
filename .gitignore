@@ -19,3 +19,7 @@ dist/
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# merge scripts
+src/merge-down.sh
+src/merge-up.sh
